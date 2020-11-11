@@ -1,0 +1,73 @@
+
+* {
+    font-family: 'Copperplate';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    background-color: gainsboro;
+    padding: 1em;
+    
+}
+
+.navbar {
+    display: grid;  
+    grid-template-columns: 5em 8em auto 13em;
+    grid-gap: .5em;   
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 1em;
+    justify-content: center ;
+    text-align: center;
+}
+
+
+
+a {
+    padding-top: 5px;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.search {
+    margin-top: 5px;
+    height: 17px;
+}
+
+.item-search {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 1em;
+}
+
+.sidebar {
+    padding-top: 5px;
+    height: 25px ;
+   
+}
+
+.logo {
+    height: 30px;
+}
+
+.line::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: black;
+    transition: ease-in-out .3s;
+}
+
+.line:hover::after {
+    width: 100%;
+    transition: ease-in-out .3s;
+}
