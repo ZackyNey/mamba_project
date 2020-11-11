@@ -11,8 +11,8 @@
         <img src="image/indeximg/logo.png" alt="">
     </div>
     <div class="flex-container">
-        <div><a href=""><img src="image/indeximg/bgman.jpg" alt=""></a></div>
-        <div><a href=""><img src="image/indeximg/bgwoman.jpg" alt=""></a></div>
+        <div><a href="man.php"><img src="image/indeximg/bgman.jpg" alt=""></a></div>
+        <div><a href="woman.php"><img src="image/indeximg/bgwoman.jpg" alt=""></a></div>
     </div>
 </body>
 </html>
