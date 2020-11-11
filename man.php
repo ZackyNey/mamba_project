@@ -52,7 +52,7 @@
     document.getElementById("mySidebar").style.display = "none";
     }
 </script>
-<h1>INI HALAMAN UNTUK PRIA</h1>
+<h1>INI HALAMAN UNTUK PRODUK PRIA</h1>
 </body>
 
 </html>
